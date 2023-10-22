@@ -7,7 +7,7 @@ module.exports = function override(config) {
     stream: require.resolve("stream-browserify"),
     assert: require.resolve("assert"),
     http: require.resolve("stream-http"),
-    os: require.resolve("os-browserify/browser"),
+    os: require.resolve("os-browserify"),
     https: require.resolve("https-browserify"),
     url: require.resolve("url"),
     zlib: require.resolve("browserify-zlib"),
