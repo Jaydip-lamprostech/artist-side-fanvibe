@@ -8,7 +8,6 @@ import qrcodeimg from "./assets/qrcode.png";
 import SetQRCode from "./components/SetQRCode";
 import Header from "./components/Header";
 import AddEvent from "./components/AddEvent";
-import { userInfo } from "os";
 
 function App() {
   const [ticketWithoutQR, setTicketWithoutQR] = useState("");
